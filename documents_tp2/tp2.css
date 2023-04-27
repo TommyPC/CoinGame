@@ -1,0 +1,54 @@
+/* Tommy Poulin-Corriveau, 20 Avril 2023*/
+
+/* Applique des styles aux cases de la grille */
+#jeu table tr td {
+	width: 40px;
+	height: 40px;
+	color: black;
+	border: 1px solid black;
+	font-size: 20px;
+	font-family: Helvetica;
+	text-align: center;
+	vertical-align: center;
+	}
+	
+	/* Centre la grille horizontalement et verticalement */
+	.centered {
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	}
+	
+	/* Positionne le bouton "Nouvelle partie" en haut au centre de la page */
+	.newGame {
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	}
+	
+	/* Positionne le compteur du nombre de sous cachés en haut à droite */
+	.coinsLeft {
+	position: absolute;
+	color: red;
+	top: 22%;
+	left: 50.5%;
+	}
+	
+	/* Positionne le compteur du nombre d'erreurs en haut à gauche */
+	.lives {
+	position: absolute;
+	color: red;
+	top: 22%;
+	left: 35.5%;
+	}
+	
+	/* Positionne le message de l'état du jeu (gagné/perdu/Jouer) en haut au centre de la page */
+	.message {
+	position: absolute;
+	top: 17%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: red;
+	}
